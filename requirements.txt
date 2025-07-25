@@ -1,0 +1,8 @@
+flask
+pandas
+prophet
+xgboost
+scikit-learn
+sqlalchemy
+requests
+python-dotenv
