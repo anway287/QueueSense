@@ -1,0 +1,32 @@
+# QueueSense
+
+QueueSense helps you avoid long waits at places like DMVs, cafés, and clinics. It uses crowdsourced check-ins, weather, and transit data to predict wait times and gives you smart "Go Now / Go Later" suggestions.
+
+## Features
+
+- Users check in and share wait times
+- Pulls weather and transit info to improve predictions
+- Predicts wait times using lightweight models (Prophet/XGBoost)
+- Shows everything on a simple map (Leaflet + OpenStreetMap)
+- Backend built with Flask + SQLite
+- Deployed on Render
+
+## Tech Stack
+
+- **Frontend**: Leaflet, JavaScript, OpenStreetMap
+- **Backend**: Python Flask, SQLite
+- **ML**: Prophet or XGBoost
+- **APIs**: OpenWeatherMap, Transit API
+
+## Setup (Basic)
+
+```bash
+# Backend
+cd backend
+pip install -r requirements.txt
+python app.py
+
+# Frontend (optional)
+cd ../frontend
+npm install
+npm start
